@@ -1,0 +1,44 @@
+:root{
+--white-color: #fff;
+--black-color: #000;
+--text-color: #434343;
+--border-color: #eee;
+--height-header: 35px;
+--hover-color: #e34444;
+--primary-color: #33cccc;
+--primary-hover: rgba(141,238,238,0.2);
+--primary-font: 'IBM Plex Sans Hebrew', sans-serif;
+}
+
+a{
+text-decoration: none;
+color: var(--text-color);
+}
+
+ul{
+list-style: none;
+padding: 0;
+}
+
+*{
+box-sizing: inherit;
+}
+
+html{
+font-size: 62.5%;
+line-height: 1.6rem; 
+font-family: 'Roboto', sans-serif;
+box-sizing: border-box;
+font-family: 'IBM Plex Sans Hebrew', sans-serif;
+scroll-behavior: smooth;
+}
+
+p{
+font-size: 1.2rem;    
+}
+
+body{
+margin: 0;
+font-size: 1.4rem;
+color: #333;
+}
